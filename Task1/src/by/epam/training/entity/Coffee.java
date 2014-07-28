@@ -1,6 +1,12 @@
 package by.epam.training.entity;
 
-public class Coffee {
+import java.io.Serializable;
+
+public class Coffee implements Comparable<Coffee>, Serializable, Cloneable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7472319026665826197L;
 	private String name;
 	private int pricePerGram;
 
@@ -48,7 +54,13 @@ public class Coffee {
 
 	@Override
 	public String toString() {
-		StringBuilder s = new StringBuilder("Coffee [name=" + name + ", pricePerGram=" + pricePerGram + "]");
+		StringBuilder s = new StringBuilder("Coffee [name=" + name
+				+ ", pricePerGram=" + pricePerGram + "]");
 		return s.toString();
+	}
+
+	@Override
+	public int compareTo(Coffee o) {
+		return this.pricePerGram - o.getPricePerGram();
 	}
 }

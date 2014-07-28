@@ -1,9 +1,13 @@
 package by.epam.training.entity;
 
+import java.io.Serializable;
 import by.epam.training.calculation.PriceCalculation;
 import by.epam.training.calculation.WeightCalculation;
 
-public abstract class Package implements Comparable<Package> {
+public abstract class Package implements Comparable<Package>, Serializable,
+		Cloneable {
+
+	private static final long serialVersionUID = 2554644111176157416L;
 	private int volume = 0;
 	private Coffee coffee;
 	private CoffeeState coffeeState;
@@ -47,12 +51,24 @@ public abstract class Package implements Comparable<Package> {
 
 	@Override
 	public String toString() {
-		StringBuilder s = new StringBuilder(Package.this.getClass().getSimpleName()+ " [volume=" + volume + ", Coffee Name=" + coffee.getName()
-				+ ", Coffee State=" + coffeeState + "  Density="
-				+ coffeeState.getDensity() + ", Weight=" + getWeight()
-				+ ", Price Per Gram=" + coffee.getPricePerGram() + ", Price="
-				+ getPrice() + ", RalationPtW=" + getRelationPriceToWeight()
-				+ "]");
+		StringBuilder s = new StringBuilder(Package.this.getClass()
+				.getSimpleName()
+				+ " [volume="
+				+ volume
+				+ ", Coffee Name="
+				+ coffee.getName()
+				+ ", Coffee State="
+				+ coffeeState
+				+ "  Density="
+				+ coffeeState.getDensity()
+				+ ", Weight="
+				+ getWeight()
+				+ ", Price Per Gram="
+				+ coffee.getPricePerGram()
+				+ ", Price="
+				+ getPrice()
+				+ ", RalationPtW="
+				+ getRelationPriceToWeight() + "]");
 		return s.toString();
 	}
 
@@ -87,4 +103,5 @@ public abstract class Package implements Comparable<Package> {
 			return false;
 		return true;
 	}
+
 }

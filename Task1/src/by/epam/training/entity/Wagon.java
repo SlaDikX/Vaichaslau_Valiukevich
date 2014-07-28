@@ -29,7 +29,8 @@ public class Wagon {
 
 	@Override
 	public String toString() {
-		return "Wagon [wagonCapacity=" + wagonCapacity + ", totalPrice="
-				+ totalPrice + ", listOfGoods=" + listOfGoods + "]";
+		StringBuilder s = new StringBuilder("Wagon [wagonCapacity=" + wagonCapacity + ", totalPrice="
+				+ totalPrice + ", listOfGoods=" + listOfGoods + "]");
+		return s.toString();
 	}
 }

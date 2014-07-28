@@ -47,12 +47,13 @@ public abstract class Package implements Comparable<Package> {
 
 	@Override
 	public String toString() {
-		return Package.this.getClass().getSimpleName()+ " [volume=" + volume + ", Coffee Name=" + coffee.getName()
+		StringBuilder s = new StringBuilder(Package.this.getClass().getSimpleName()+ " [volume=" + volume + ", Coffee Name=" + coffee.getName()
 				+ ", Coffee State=" + coffeeState + "  Density="
 				+ coffeeState.getDensity() + ", Weight=" + getWeight()
 				+ ", Price Per Gram=" + coffee.getPricePerGram() + ", Price="
 				+ getPrice() + ", RalationPtW=" + getRelationPriceToWeight()
-				+ "]";
+				+ "]");
+		return s.toString();
 	}
 
 	@Override

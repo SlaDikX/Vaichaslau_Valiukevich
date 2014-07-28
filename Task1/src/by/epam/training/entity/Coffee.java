@@ -48,6 +48,7 @@ public class Coffee {
 
 	@Override
 	public String toString() {
-		return "Coffee [name=" + name + ", pricePerGram=" + pricePerGram + "]";
+		StringBuilder s = new StringBuilder("Coffee [name=" + name + ", pricePerGram=" + pricePerGram + "]");
+		return s.toString();
 	}
 }

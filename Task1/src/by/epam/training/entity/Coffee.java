@@ -42,4 +42,56 @@ public class Coffee implements Comparable<Coffee>, Cloneable {
 	public int compareTo(Coffee o) {
 		return this.pricePerGram - o.getPricePerGram();
 	}
+
+	@Override
+	public String toString() {
+		StringBuilder s = new StringBuilder();
+		s.append("Coffee [name=");
+		s.append(name);
+		s.append(", pricePerGram=");
+		s.append(pricePerGram);
+		s.append(", state=");
+		s.append(state);
+		s.append("]");
+		return s.toString();
+	}
+
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		result = prime * result + pricePerGram;
+		result = prime * result + ((state == null) ? 0 : state.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj) {
+			return true;
+		}
+		if (obj == null) {
+			return false;
+		}
+		if (getClass() != obj.getClass()) {
+			return false;
+		}
+		Coffee other = (Coffee) obj;
+		if (name == null) {
+			if (other.name != null) {
+				return false;
+			}
+		} else if (!name.equals(other.name)) {
+			return false;
+		}
+		if (pricePerGram != other.pricePerGram) {
+			return false;
+		}
+		if (state != other.state) {
+			return false;
+		}
+		return true;
+	}
+
 }

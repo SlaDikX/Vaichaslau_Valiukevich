@@ -1,0 +1,84 @@
+31.07.2014 23:44:13 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+31.07.2014 23:44:13 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+31.07.2014 23:44:13 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+31.07.2014 23:44:49 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+31.07.2014 23:44:49 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+31.07.2014 23:44:49 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+31.07.2014 23:46:24 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+31.07.2014 23:46:24 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+31.07.2014 23:46:24 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+31.07.2014 23:46:49 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:12:41 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:19:50 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:20:14 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:22:17 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:23:02 [main] INFO  by.epam.training.entity.Coffee  - ofjava.lang.IllegalArgumentException: pricePerGram making Coffee
+01.08.2014 00:23:02 [main] INFO  by.epam.training.entity.Coffee  - ofjava.lang.IllegalArgumentException: pricePerGram making Coffee
+01.08.2014 00:24:47 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: pricePerGram of making Coffee
+01.08.2014 00:24:47 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: pricePerGram of making Coffee
+01.08.2014 00:26:25 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: pricePerGram of making Coffee
+01.08.2014 00:26:35 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:26:41 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: pricePerGram of making Coffee
+01.08.2014 00:29:35 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: name of making Coffee
+01.08.2014 00:29:35 [main] INFO  by.epam.training.entity.Coffee  - java.lang.IllegalArgumentException: pricePerGram of making Coffee
+01.08.2014 00:35:04 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:35:04 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:36:22 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:37:16 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:37:51 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:39:56 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:42:04 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:42:12 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:43:24 [main] ERROR by.epam.training.entity.Wagon  - java.lang.IllegalArgumentException: wagonCapacity of making Wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica Not enouth free capacity in wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica Not enouth free capacity in wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bank Jacobs Not enouth free capacity in wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs Not enouth free capacity in wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:43:24 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse Not enouth free capacity in wagon
+01.08.2014 00:46:33 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica No money left 
+01.08.2014 00:46:33 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica No money left 
+01.08.2014 00:46:33 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs No money left 
+01.08.2014 00:46:33 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse No money left 
+01.08.2014 00:46:33 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:52:27 [main] INFO  by.epam.training.entity.Wagon  - Bank Arabica No money left 
+01.08.2014 00:52:27 [main] INFO  by.epam.training.entity.Wagon  - Bag Arabica No money left 
+01.08.2014 00:52:27 [main] INFO  by.epam.training.entity.Wagon  - Bag Jacobs No money left 
+01.08.2014 00:52:27 [main] INFO  by.epam.training.entity.Wagon  - Bank MaxwellHouse No money left 
+01.08.2014 00:52:27 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 
+01.08.2014 00:52:58 [main] INFO  by.epam.training.entity.Wagon  - Bag MaxwellHouse No money left 

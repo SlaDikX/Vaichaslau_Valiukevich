@@ -47,17 +47,19 @@ public class Runner {
 						pr.getProperty("Word"), mainText.getChild(i));
 			}
 			//форматирую текс 
-			StringBuilder bui = new StringBuilder();
+			StringBuilder sb = new StringBuilder();
 			TextFormatter.getFormatedText(mainText);
 			for (int i = 0; i < mainText.getSizeOfChilds(); i++) {
-				bui.append(mainText.getChild(i).getName());
+				sb.append(mainText.getChild(i).getName());
 			}
+			br.close();
 			//вывод данных в файл
 			BufferedWriter out = new BufferedWriter(new OutputStreamWriter(
 					new FileOutputStream(
 							"src\\by\\epam\\training\\resourse\\Out.txt")));
-			out.write(bui.toString());
+			out.write(sb.toString());
 			out.close();
+			
 			
 		}
 		catch(NullPointerException e)

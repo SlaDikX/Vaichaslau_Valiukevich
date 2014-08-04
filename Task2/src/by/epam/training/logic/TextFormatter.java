@@ -23,7 +23,6 @@ public class TextFormatter {
 					|| doc.getChild(i).getName().contains("(")
 					|| doc.getChild(i).getName().contains("'")
 					|| doc.getChild(i).getName().contains(".")
-
 					|| doc.getChild(i).getName().contains("\n")) {
 				s.append(doc.getChild(i).getName());
 

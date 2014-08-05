@@ -2,3 +2,4 @@
 05.08.2014 02:38:51 [main] ERROR by.epam.training.runner.Runner  - java.io.FileNotFoundException: src\by\epam\training\resourse\qText.txt (Не удается найти указанный файл)
 05.08.2014 02:44:01 [main] ERROR by.epam.training.runner.Runner  - java.lang.NullPointerException
 05.08.2014 02:44:37 [main] ERROR by.epam.training.runner.Runner  - java.io.FileNotFoundException: dsrc\by\epam\training\resourse\Out.txt (Системе не удается найти указанный путь)
+05.08.2014 10:37:35 [main] ERROR by.epam.training.runner.Runner  - java.lang.NullPointerException

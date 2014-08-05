@@ -1,5 +1,7 @@
 package by.epam.training.entity;
 
+import java.util.List;
+
 public interface Document {
 	public void add(Document text);
 
@@ -12,4 +14,6 @@ public interface Document {
 	public Document getChild(int i);
 
 	public int getSizeOfChilds();
+	
+	public List<Document> getListOfChilds();
 }

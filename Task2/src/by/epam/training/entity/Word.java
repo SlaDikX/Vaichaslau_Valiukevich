@@ -1,5 +1,7 @@
 package by.epam.training.entity;
 
+import java.util.List;
+
 public class Word implements Document {
 	private String name;
 
@@ -65,5 +67,11 @@ public class Word implements Document {
 			return false;
 		}
 		return true;
+	}
+
+	@Override
+	public List<Document> getListOfChilds() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

@@ -97,4 +97,10 @@ public class Text implements Document {
 		return true;
 	}
 
+	@Override
+	public List<Document> getListOfChilds() {
+		// TODO Auto-generated method stub
+		return text;
+	}
+
 }

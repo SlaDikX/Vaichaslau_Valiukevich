@@ -102,5 +102,9 @@ public class Text implements Document {
 		// TODO Auto-generated method stub
 		return text;
 	}
-
+	@Override
+	public int compareTo(Document o) {
+		return getSizeOfChilds()-o.getSizeOfChilds();
+		
+	}
 }

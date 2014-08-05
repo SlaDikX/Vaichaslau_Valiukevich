@@ -8,13 +8,16 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Properties;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+
 import by.epam.training.entity.Document;
 import by.epam.training.loader.FileLoader;
 import by.epam.training.loader.TextReader;
 import by.epam.training.logic.Parsing;
+import by.epam.training.logic.SortSentence;
 import by.epam.training.logic.TextFormatter;
 import by.epam.training.logic.TextSwitch;
 
@@ -48,7 +51,8 @@ public class Runner {
 			// форматирую текс
 			StringBuilder sb = new StringBuilder();
 			TextFormatter.getFormatedText(mainText);
-			TextSwitch.getSwitchedWord(mainText);
+		//	TextSwitch.getSwitchedWord(mainText);
+			SortSentence.getSortedTextBySentence(mainText);
 			TextFormatter.getFormatedText(mainText);
 			for (int i = 0; i < mainText.getSizeOfChilds(); i++) {
 				sb.append(mainText.getChild(i).getName());

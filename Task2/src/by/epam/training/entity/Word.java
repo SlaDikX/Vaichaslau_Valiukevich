@@ -74,4 +74,9 @@ public class Word implements Document {
 		// TODO Auto-generated method stub
 		return null;
 	}
+	@Override
+	public int compareTo(Document o) {
+		return getSizeOfChilds()-o.getSizeOfChilds();
+		
+	}
 }

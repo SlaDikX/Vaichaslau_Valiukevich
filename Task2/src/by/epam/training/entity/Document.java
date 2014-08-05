@@ -2,7 +2,7 @@ package by.epam.training.entity;
 
 import java.util.List;
 
-public interface Document {
+public interface Document extends Comparable<Document> {
 	public void add(Document text);
 
 	public void remove(Document text);

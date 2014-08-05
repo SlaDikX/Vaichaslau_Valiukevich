@@ -105,4 +105,11 @@ public class Sentence implements Document {
 		return sentence;
 	}
 
+	@Override
+	public int compareTo(Document o) {
+		return getSizeOfChilds()-o.getSizeOfChilds();
+		
+	}
+
+	
 }

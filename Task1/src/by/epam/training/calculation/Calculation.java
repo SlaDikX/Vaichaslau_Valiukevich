@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 import by.epam.training.entity.CoffeeState;
 import by.epam.training.entity.Container;
 
-public class Calculation {
+public final class Calculation {
 	static Logger logger = Logger.getLogger(Calculation.class);
 	public static int calculatePrice(int weight, int pricePerGram) {
 		return weight * pricePerGram;

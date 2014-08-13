@@ -1,44 +1,22 @@
 package by.epam.training.logic;
 
-import by.epam.training.entity.Document;
+public final class TextFormatter {
 
-public class TextFormatter {
-
-	public static Document getFormatedSentence(Document doc) {
-		StringBuilder s = new StringBuilder();
-
-		for (int i = 0; i < doc.getSizeOfChilds(); i++) {
-			if ((i + 1 < doc.getSizeOfChilds())
-					&& (doc.getChild(i + 1).getName().contains(",")
-							|| doc.getChild(i + 1).getName().contains("!")
-							|| doc.getChild(i + 1).getName().contains("»")
-							|| doc.getChild(i + 1).getName().contains(".")
-							|| doc.getChild(i + 1).getName().contains(")")
-							|| doc.getChild(i + 1).getName().contains("?")
-							|| doc.getChild(i + 1).getName().contains(";")
-							|| doc.getChild(i + 1).getName().contains("'") || doc
-							.getChild(i + 1).getName().contains(":"))) {
-				s.append(doc.getChild(i).getName());
-			} else if (doc.getChild(i).getName().contains("«")
-					|| doc.getChild(i).getName().contains("(")
-					|| doc.getChild(i).getName().contains("'")
-					|| doc.getChild(i).getName().contains(".")
-					|| doc.getChild(i).getName().contains("\n")) {
-				s.append(doc.getChild(i).getName());
-
-			} else {
-				s.append(doc.getChild(i).getName());
-				s.append(" ");
-			}
+	public static boolean isPunctuationAfterWord(String textComponent) {
+		if ((",".equals(textComponent) || "»".equals(textComponent)
+				|| ".".equals(textComponent) || ")".equals(textComponent)
+				|| "?".equals(textComponent) || ";".equals(textComponent)
+				|| ":".equals(textComponent) || "!".equals(textComponent))) {
+			return true;
 		}
-		doc.setName(s.toString());
-		return doc;
+		return false;
 	}
 
-	public static Document getFormatedText(Document doc) {
-		for (int i = 0; i < doc.getSizeOfChilds(); i++) {
-			getFormatedSentence(doc.getChild(i));
+	public static boolean isPunctuationBeforeWord(String textComponent) {
+		if (("«".equals(textComponent) || "(".equals(textComponent))
+				) {
+			return true;
 		}
-		return doc;
+		return false;
 	}
 }

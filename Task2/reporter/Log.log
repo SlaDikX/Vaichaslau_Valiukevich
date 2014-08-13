@@ -3,3 +3,5 @@
 05.08.2014 02:44:01 [main] ERROR by.epam.training.runner.Runner  - java.lang.NullPointerException
 05.08.2014 02:44:37 [main] ERROR by.epam.training.runner.Runner  - java.io.FileNotFoundException: dsrc\by\epam\training\resourse\Out.txt (Системе не удается найти указанный путь)
 05.08.2014 10:37:35 [main] ERROR by.epam.training.runner.Runner  - java.lang.NullPointerException
+07.08.2014 15:32:42 [main] ERROR by.epam.training.loader.TextLoader  - java.io.FileNotFoundException: eresourse\Text.txt (Системе не удается найти указанный путь)
+ 

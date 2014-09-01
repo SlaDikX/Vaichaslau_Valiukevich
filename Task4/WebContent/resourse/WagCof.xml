@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wagon capacity="10000" total-price="20000" id="wagon123"
+	xmlns="http://www.example.org/Wagon" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Wagon Wagon.xsd">
+	<bag>
+		<coffee state="bean">
+			<name>Jacobs</name>
+			<price-per-gram>1</price-per-gram>
+		</coffee>
+		<volume>600</volume>
+	</bag>
+	<bank>
+		<coffee state="milled">
+			<name>Arabica</name>
+			<price-per-gram>2</price-per-gram>
+		</coffee>
+		<volume>500</volume>
+	</bank>
+	<bank>
+		<coffee state="instante">
+			<name>MaxwellHouse</name>
+			<price-per-gram>3</price-per-gram>
+		</coffee>
+		<volume>300</volume>
+	</bank>
+	<bag>
+		<coffee state="milled">
+			<name>Jacobs</name>
+			<price-per-gram>1</price-per-gram>
+		</coffee>
+		<volume>400</volume>
+	</bag>
+	<bag>
+		<coffee state="milled">
+			<name>MaxwellHouse</name>
+			<price-per-gram>2</price-per-gram>
+		</coffee>
+		<volume>250</volume>
+	</bag>
+</wagon>
